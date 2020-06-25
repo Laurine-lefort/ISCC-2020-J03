@@ -53,19 +53,17 @@ h2
     flex-direction: row;
 }
 
-.left {
-    flex-basis: 33%;
+.media {
+    width: 33%;
 }
 
-.middle {
-    flex-basis: 33%;
+.l1{
+    color: green;
 }
 
-.right {
-    flex-basis: 33%;
+.l2 {
+    color: greenyellow;
 }
-
-
 
 
 
