@@ -1,0 +1,24 @@
+body {
+    background-color: white;
+}
+
+h1 {
+    background-color: grey;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+}
+.media {
+    padding: 0%;
+    margin: 0%;
+    text-align: right;
+    list-style: none;
+}  
+.infos {
+    display: flex;
+    flex-direction: row;
+}
+.inf {
+    background-position: unset;
+}
