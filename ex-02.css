@@ -1,0 +1,71 @@
+@font-face {
+    font-family: "mafont";
+    src: url('assets3/nasalization-rg.ttf');
+}
+
+p{
+    color: darkslategrey;
+}
+
+ul{
+    color: darkslategrey;
+}
+
+q{
+    border-width: 2px black;
+    border-style: dotted;
+}
+
+p ul{
+    margin-left: 5%; 
+    margin-right: 5%; 
+}
+  
+body
+{
+    background-color: aliceblue;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+h1
+{
+    background-color: rgba(0,0,0,0.2);
+    color: #8B0000; 
+        font-family: "mafont";
+        font-size: 45px;
+        text-decoration: underline;
+        text-align: center;
+        padding: 10px;
+        margin-block: 0%;
+    }
+h2
+{
+    color: rgb(178, 34, 34);
+    font-family: "mafont";
+    font-size: 25px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.container { 
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    flex-basis: 33%;
+}
+
+.middle {
+    flex-basis: 33%;
+}
+
+.right {
+    flex-basis: 33%;
+}
+
+
+
+
+
